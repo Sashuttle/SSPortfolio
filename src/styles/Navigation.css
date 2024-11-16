@@ -1,0 +1,33 @@
+/* Home Screen Nav Bar */
+.homeNav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50vw;
+    height: 100vh;
+    /*position:absolute;
+    right: 0;*/
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+.homeNav ul {
+    list-style-type: none;
+}
+
+.homeNav li {
+    margin-bottom: 25px;
+}
+
+.homeNav a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.homeNav a:hover {
+    color: rgb(68, 0, 101);
+}
+
