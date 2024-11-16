@@ -1,12 +1,10 @@
 import { useState } from 'react';
-//import './styles/App.css';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="background">
-      
-        
-        <h1>Sam</h1>
+      <h1 className="sam">Samantha<br></br>Shuttleworth</h1>
 
     </div>
   );
