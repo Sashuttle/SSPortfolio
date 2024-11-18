@@ -9,6 +9,8 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 
+{/*This is supposed to be my global page for routes....need to fix & create a home page cause this will load throughout all the other pages*/}
+
 
 function App() {
   return (
@@ -41,7 +43,7 @@ function App() {
           </nav>
         </div>
         <Routes>
-          <Route path='/about' element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path='/education' element={<Education />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
