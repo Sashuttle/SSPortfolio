@@ -1,4 +1,12 @@
 /* Home Screen Nav Bar */
+.homeContainer {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Aligns items vertically centered */
+    justify-content: space-between; /* Space between title and nav */
+    height: 100vh; /* Set container height */
+    padding: 0 20px; /* Horizontal padding */
+}
+
 .homeNav{
     display: flex;
     align-items: center;
